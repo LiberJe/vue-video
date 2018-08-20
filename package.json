@@ -1,0 +1,28 @@
+{
+  "name": "vue-video",
+  "version": "0.0.1",
+  "description": "vue-video component",
+  "main": "index.js",
+  "scripts": {
+    "dev": "poi dev/index.js",
+    "build": "poi build ./src/index.js --library vue-video"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiberJe/vue-video.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-video",
+    "vue-component"
+  ],
+  "author": "JeLewine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiberJe/vue-video/issues"
+  },
+  "homepage": "https://github.com/LiberJe/vue-video#readme",
+  "devDependencies": {
+    "poi": "^10.2.10"
+  }
+}
