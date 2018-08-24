@@ -27,5 +27,8 @@
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0",
     "poi": "^10.2.10"
+  },
+  "dependencies": {
+    "iphone-inline-video": "^2.2.2"
   }
 }

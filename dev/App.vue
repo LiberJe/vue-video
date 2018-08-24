@@ -9,6 +9,7 @@
 
 <script>
 import Player from '../src'
+import controlsPlugin from '../plugins/controlsPlugin'
 
 export default {
   data () {
@@ -16,15 +17,11 @@ export default {
       options: {
         src: 'https://vjs.zencdn.net/v/oceans.mp4',
         controls: true,
-        loop: false
+        loop: false,
+        inline: true,
       },
       plugins: [
-        {
-          name: 'adaptor',
-          create () {
-            console.log(this)
-          }
-        }
+        controlsPlugin
       ]
     }
   },
